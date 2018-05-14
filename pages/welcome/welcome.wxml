@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="avatar" src="/images/avatar/avatar-5.png"></image>
+    <text class="motto">Golang语言社区</text>
+    <view catchtap="onTapJump" class="journey-container">
+        <text class="journey">开启学习Go语言之旅</text>
+    </view>
+</view>
