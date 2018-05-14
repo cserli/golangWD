@@ -14,6 +14,7 @@ swiper{
   display: flex;flex-direction: row;position: fixed;bottom: 0  
 }   */
 
+/*2个悬浮按钮*/
 .img-plus-style {  
   height: 70rpx;  
   width: 70rpx;  

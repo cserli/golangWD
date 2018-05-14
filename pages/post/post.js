@@ -26,10 +26,21 @@ Page({
     wx.navigateTo({
       url: "post-detail/post-detail?id=" + postId
     })
+  },
+  //访问微店--或者是充值
+  calling: function () {
+    wx.request({
+      url: "https://wx.golang.ltd:7878",
+      // data: data,
+      header: {
+        // "Content-Type":"application/json"
+      },
+      success: function (res) {
+        console.log(res.data)
+      },
+      fail: function (err) {
+        console.log(err)
+      }
+    })
   }
-  // calling: function () {
-  //   wx.makePhoneCall({
-  //     phoneNumber: '10086',
-  //   })
-  // }
 })
