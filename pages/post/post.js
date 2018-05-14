@@ -30,7 +30,7 @@ Page({
   //访问微店--或者是充值
   calling: function () {
     wx.request({
-      url: "https://wx.golang.ltd:7878/TJData",
+      url: "https://wx.golang.ltd:/TJData",
       // data: data,
       header: {
         "Content-Type":"application/json"
