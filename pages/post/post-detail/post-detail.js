@@ -161,6 +161,44 @@ Page({
       desc: this.postData.content,
       path: "/pages/post/post-detail/post-detail"
     }
+  },
+  //访问微店--或者是充值
+  calling: function () {
+    wx.navigateTo({
+      // wx.request({
+      // url: "https://wx.golang.ltd:7878/TJData",
+      url: "../../../pages/post/post.wxml",
+      // data: data,
+      header: {
+        "Content-Type": "application/json"
+      },
+      success: function (res) {
+        //console.log(res.data)
+      },
+      fail: function (err) {
+        console.log(err)
+      },
+      complete: function () { }
+    })
+  },
+  //发表评论
+  fabiao: function () {
+    wx.navigateTo({
+      // wx.request({
+      // url: "https://wx.golang.ltd:7878/TJData",
+      url: "./pages/post/post.wxml",
+      // data: data,
+      header: {
+        "Content-Type": "application/json"
+      },
+      success: function (res) {
+        //console.log(res.data)
+      },
+      fail: function (err) {
+        console.log(err)
+      },
+      complete: function () { }
+    })
   }
 
 })

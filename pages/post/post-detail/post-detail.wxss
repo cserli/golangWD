@@ -93,3 +93,22 @@
   top: 180rpx;
   opacity: 0.9;
 }
+/*2个悬浮按钮*/
+.img-plus-style {  
+  height: 70rpx;  
+  width: 70rpx;  
+  position: fixed;  
+  bottom: 220rpx;  
+  right: 30rpx;  
+  opacity: 0.7
+}  
+.img-plus-style1 {  
+  height: 70rpx;  
+  width: 70rpx;  
+  position: fixed;  
+  bottom: 130rpx;  
+  right: 30rpx;   
+  opacity: 0.7
+}  
+.zindex100{z-index: 100}
+.yc{opacity: 0}

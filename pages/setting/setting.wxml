@@ -8,7 +8,7 @@
         <text>{{userInfo.nickName}}</text>
       </view>
       <view class="user-locaiton">
-        <text>所在地：{{userInfo.city}}</text>
+        <text>城市：{{userInfo.city}}</text>
       </view>
     </view>
   </view>
@@ -16,7 +16,14 @@
     <block wx:for="{{cache}}">
       <view class="detail-item" catchtap="{{item.tap}}">
         <image src="{{item.iconurl}}"></image>
-        <text>{{item.title}}</text>
+        <text>金币数量：</text>
+         <!-- <text>{{item.title}}</text> -->
+          <text>10000</text>
+        <view class="detail-item-btn"></view>
+      </view>
+      <view class="detail-item" catchtap="{{item.tap}}">
+        <image src="{{item.iconurl}}"></image>
+        <text>我的提问</text>
         <view class="detail-item-btn"></view>
       </view>
     </block>
