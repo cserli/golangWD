@@ -1,0 +1,12 @@
+<view class="section">
+ <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请再次输入问答标题" />
+</view>
+<view class="section">
+ <textarea bindblur="" auto-height placeholder="---------------------" />
+</view>
+<view class="section">
+ <textarea bindblur="bindTextAreaBlur" placeholder="输入问答内容... ..." focus="{{focus}}" />
+ <view class="btn-area">
+ <button bindtap="bindButtonTap">点击发表</button>
+ </view>
+</view>

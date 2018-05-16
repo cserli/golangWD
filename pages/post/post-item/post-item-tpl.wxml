@@ -5,7 +5,7 @@
         <text>{{date}}</text>
       </view>
       <text class="post-title">{{title}}</text>
-      <image class="post-image" src="{{postImg}}" mode="aspectFill" />
+      <!-- <image class="post-image" src="{{postImg}}" mode="aspectFill" /> -->
       <text class="post-content">{{content}}</text>
       <view class="post-like">
         <image src="/images/icon/wx_app_collect.png" />

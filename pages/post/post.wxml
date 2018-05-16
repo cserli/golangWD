@@ -1,8 +1,8 @@
 <import src="post-item/post-item-tpl.wxml" />
 <view>
-<contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
-</contact-button>
-<image src="/images/post/1s.png" class="img-plus-style"></image> 
+<!-- <contact-button type="default-dark" size="20" session-from="weapp" class="img-plus-style zindex100 yc">
+</contact-button> -->
+<image src="/images/post/1s.png" class="img-plus-style" bindtap='fabiao'></image> 
 <image src="/images/post/2s.png" class="img-plus-style1" bindtap="calling"></image>
 
   <swiper catchtap="onSwiperTap" vertical="{{false}}"  indicator-dots="true" autoplay="true" interval="5000" circular="true">

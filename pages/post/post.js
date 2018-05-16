@@ -29,18 +29,40 @@ Page({
   },
   //访问微店--或者是充值
   calling: function () {
-    wx.request({
-      url: "https://wx.golang.ltd:/TJData",
+    wx.navigateTo({
+   // wx.request({
+     // url: "https://wx.golang.ltd:7878/TJData",
+      url: "../weidian/weidian",
       // data: data,
       header: {
         "Content-Type":"application/json"
       },
       success: function (res) {
-        console.log(res.data)
+        //console.log(res.data)
       },
       fail: function (err) {
         console.log(err)
-      }
+      },
+      complete: function () { } 
+    })
+  },
+  //发表评论
+  fabiao: function () {
+    wx.navigateTo({
+      // wx.request({
+      // url: "https://wx.golang.ltd:7878/TJData",
+      url: "../wenzhang/wenzhang",
+      // data: data,
+      header: {
+        "Content-Type": "application/json"
+      },
+      success: function (res) {
+        //console.log(res.data)
+      },
+      fail: function (err) {
+        console.log(err)
+      },
+      complete: function () { }
     })
   }
 })

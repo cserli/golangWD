@@ -21,37 +21,5 @@
       </view>
     </block>
   </view>
-  <view class="category-item">
-    <block wx:for="{{device}}">
-      <view class="detail-item" catchtap="{{item.tap}}">
-        <image src="{{item.iconurl}}"></image>
-        <text>{{item.title}}</text>
-        <view class="detail-item-btn"></view>
-      </view>
-    </block>
-  </view>
-  <view class="category-item">
-    <block wx:for="{{api}}">
-      <view class="detail-item" catchtap="{{item.tap}}">
-        <image src="{{item.iconurl}}"></image>
-        <text>{{item.title}}</text>
-        <view class="detail-item-btn"></view>
-      </view>
-    </block>
-  </view>
-  <view class="category-item">
-    <block wx:for="{{others}}">
-      <view class="detail-item" catchtap="{{item.tap}}">
-        <image src="{{item.iconurl}}"></image>
-        <text>{{item.title}}</text>
-        <view class="detail-item-btn"></view>
-      </view>
-    </block>
-  </view>
-  <modal title="指南针" confirm-text="确定" no-cancel hidden="{{compassHidden}}" bindconfirm="hideCompass" confirm-color="#1F4BA5">
-    当前方向：偏北{{compassVal}}°
-  </modal>
-  <modal title="摇一摇" confirm-text="确定" no-cancel hidden="{{shakeInfo.gravityModalHidden}}" bindconfirm="gravityModalConfirm" confirm-color="#1F4BA5">
-    当前摇一摇次数：{{shakeInfo.num}}
-  </modal>
+
 </view>

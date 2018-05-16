@@ -16,7 +16,9 @@
         "pages/setting/open-api/tpl-message/tpl-message",
         "pages/setting/open-api/wx-pay/wx-pay",
         "pages/setting/others/wx-key/wx-key",
-        "pages/setting/others/scroll-view/scroll-view"
+        "pages/setting/others/scroll-view/scroll-view",
+        "pages/weidian/weidian",
+        "pages/wenzhang/wenzhang"
     ],
     "window": {
         "navigationBarBackgroundColor": "#4A6141",
