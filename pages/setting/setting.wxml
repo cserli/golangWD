@@ -13,7 +13,8 @@
     </view>
   </view>
   <view class="category-item">
-    <block wx:for="{{cache}}">
+   <block >
+    <!-- <block wx:for="{{cache}}"> -->
       <view class="detail-item" catchtap="{{item.tap}}">
         <image src="{{item.iconurl}}"></image>
         <text>金币数量：</text>
@@ -21,11 +22,11 @@
           <text>10000</text>
         <view class="detail-item-btn"></view>
       </view>
-      <view class="detail-item" catchtap="{{item.tap}}">
+      <!-- <view class="detail-item" catchtap="{{item.tap}}">
         <image src="{{item.iconurl}}"></image>
         <text>我的提问</text>
         <view class="detail-item-btn"></view>
-      </view>
+      </view> -->
     </block>
   </view>
 

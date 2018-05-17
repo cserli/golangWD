@@ -33,7 +33,7 @@
         "list": [
             {
                 "pagePath": "pages/post/post",
-                "text": "问答首页",
+                "text": "IT吐槽",
                 "iconPath": "images/icon/wx_app_news.png",
                 "selectedIconPath": "images/icon/wx_app_news@HL.png"
             },

@@ -1,9 +1,9 @@
-<view class="section">
+<!-- <view class="section">
  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="输入标题... ..." />
 </view>
 <view class="section">
  <textarea bindblur="" auto-height placeholder="---------------------" />
-</view>
+</view> -->
 <view class="section">
  <textarea bindblur="bindTextAreaBlur" placeholder="输入内容... ..." focus="{{focus}}" />
  <view class="btn-area">
